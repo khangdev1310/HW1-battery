@@ -21,8 +21,8 @@ section::before {
   height: 240px;
   background: linear-gradient(
     90deg,
-    rgba(176, 127, 212, 1) 0%,
-    rgba(154, 30, 215, 1) 66%
+    rgba(186, 10, 224, 1) 32%,
+    rgba(178, 102, 199, 1) 67%
   );
   border-radius: 50%;
   transform: translate(-150px, -100px);
@@ -119,4 +119,10 @@ section::after {
   width: 50%;
   background: linear-gradient(90deg, #9c28af, #fd2c72);
   border-radius: 4px;
+}
+
+.percent {
+  color: #fe3177;
+  font-size: 20px;
+  font-weight: 700;
 }
