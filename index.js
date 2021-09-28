@@ -7,6 +7,7 @@ navigator.getBattery().then((battery) => {
   percent.innerHTML = parseInt(battery.level * 100) + '%'
 })
 
+let hec = document.querySelector('.head')
 let sec = document.querySelector('.sec')
 let toggle = document.querySelector('.toggle')
 // toggle.onclick = () => {
@@ -16,4 +17,5 @@ let toggle = document.querySelector('.toggle')
 
 toggle.addEventListener('click', () => {
   sec.classList.toggle('dark')
+  hec.classList.toggle('bg-dark')
 })

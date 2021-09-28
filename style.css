@@ -7,6 +7,24 @@
   font-family: 'Poppins', sans-serif;
 }
 
+header {
+  font-size: 40px;
+  line-height: 14px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: #b266c7;
+  height: 60px;
+}
+
+.head.bg-dark {
+  background: #161623;
+  color: #fff;
+  
+}
+
 section {
   position: relative;
   display: flex;
@@ -115,8 +133,9 @@ section.dark .battery__shape {
   border-bottom-right-radius: 4px;
 }
 
-.section.dark .battery__shape::before {
-  background: #fff;
+.dark .battery__shape::before {
+  background: #fff !important;
+ 
 }
 
 .battery__shape::after {
